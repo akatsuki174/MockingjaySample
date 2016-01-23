@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10EFADC106153899887FE778 /* Pods_MockingjaySampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89EDF2D9E5716C57359997E /* Pods_MockingjaySampleTests.framework */; };
 		2CD479C91C536CC600839DC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD479C81C536CC600839DC7 /* AppDelegate.swift */; };
 		2CD479CB1C536CC600839DC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD479CA1C536CC600839DC7 /* ViewController.swift */; };
 		2CD479CE1C536CC600839DC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD479CC1C536CC600839DC7 /* Main.storyboard */; };
 		2CD479D01C536CC600839DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD479CF1C536CC600839DC7 /* Assets.xcassets */; };
 		2CD479D31C536CC600839DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD479D11C536CC600839DC7 /* LaunchScreen.storyboard */; };
 		2CD479DE1C536CC700839DC7 /* MockingjaySampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD479DD1C536CC700839DC7 /* MockingjaySampleTests.swift */; };
+		B4A2CDAFB38E4B743C2DFE5C /* Pods_MockingjaySample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCF1A79F84743A365BAD797 /* Pods_MockingjaySample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26B734D48BEC9B4E7B004BAA /* Pods-MockingjaySampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingjaySampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MockingjaySampleTests/Pods-MockingjaySampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		2CD479C51C536CC600839DC7 /* MockingjaySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockingjaySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD479C81C536CC600839DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CD479CA1C536CC600839DC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		2CD479D91C536CC700839DC7 /* MockingjaySampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockingjaySampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD479DD1C536CC700839DC7 /* MockingjaySampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingjaySampleTests.swift; sourceTree = "<group>"; };
 		2CD479DF1C536CC700839DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCF1A79F84743A365BAD797 /* Pods_MockingjaySample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockingjaySample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CA3D6D4E87B93C7F63F6A7 /* Pods-MockingjaySampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingjaySampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MockingjaySampleTests/Pods-MockingjaySampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C89EDF2D9E5716C57359997E /* Pods_MockingjaySampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockingjaySampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B73A13AB1598F0851F9E2E /* Pods-MockingjaySample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingjaySample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MockingjaySample/Pods-MockingjaySample.release.xcconfig"; sourceTree = "<group>"; };
+		FD09A0894BFAF7B39FBDCAD6 /* Pods-MockingjaySample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingjaySample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MockingjaySample/Pods-MockingjaySample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A2CDAFB38E4B743C2DFE5C /* Pods_MockingjaySample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10EFADC106153899887FE778 /* Pods_MockingjaySampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				2CD479C71C536CC600839DC7 /* MockingjaySample */,
 				2CD479DC1C536CC700839DC7 /* MockingjaySampleTests */,
 				2CD479C61C536CC600839DC7 /* Products */,
+				5E9F605A57435C22A8E1E540 /* Pods */,
+				EFCC4B4A5B3DC5C1B39B8FAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = MockingjaySampleTests;
 			sourceTree = "<group>";
 		};
+		5E9F605A57435C22A8E1E540 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD09A0894BFAF7B39FBDCAD6 /* Pods-MockingjaySample.debug.xcconfig */,
+				D4B73A13AB1598F0851F9E2E /* Pods-MockingjaySample.release.xcconfig */,
+				79CA3D6D4E87B93C7F63F6A7 /* Pods-MockingjaySampleTests.debug.xcconfig */,
+				26B734D48BEC9B4E7B004BAA /* Pods-MockingjaySampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFCC4B4A5B3DC5C1B39B8FAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FCF1A79F84743A365BAD797 /* Pods_MockingjaySample.framework */,
+				C89EDF2D9E5716C57359997E /* Pods_MockingjaySampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CD479E21C536CC700839DC7 /* Build configuration list for PBXNativeTarget "MockingjaySample" */;
 			buildPhases = (
+				E08F8449CB39FB85D735BC0E /* Check Pods Manifest.lock */,
 				2CD479C11C536CC600839DC7 /* Sources */,
 				2CD479C21C536CC600839DC7 /* Frameworks */,
 				2CD479C31C536CC600839DC7 /* Resources */,
+				0FF7B755372D5FB4844500EA /* Embed Pods Frameworks */,
+				4D092FA8F07B7C79D3FA8CD8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CD479E51C536CC700839DC7 /* Build configuration list for PBXNativeTarget "MockingjaySampleTests" */;
 			buildPhases = (
+				F55F085C1F93C4368F40A4B1 /* Check Pods Manifest.lock */,
 				2CD479D51C536CC700839DC7 /* Sources */,
 				2CD479D61C536CC700839DC7 /* Frameworks */,
 				2CD479D71C536CC700839DC7 /* Resources */,
+				5EE47EB51AA4E8D29613E1DA /* Embed Pods Frameworks */,
+				0BC46397FB6289083DF8C2C3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BC46397FB6289083DF8C2C3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MockingjaySampleTests/Pods-MockingjaySampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FF7B755372D5FB4844500EA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MockingjaySample/Pods-MockingjaySample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D092FA8F07B7C79D3FA8CD8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MockingjaySample/Pods-MockingjaySample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EE47EB51AA4E8D29613E1DA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MockingjaySampleTests/Pods-MockingjaySampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E08F8449CB39FB85D735BC0E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F55F085C1F93C4368F40A4B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2CD479C11C536CC600839DC7 /* Sources */ = {
@@ -325,6 +456,7 @@
 		};
 		2CD479E31C536CC700839DC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD09A0894BFAF7B39FBDCAD6 /* Pods-MockingjaySample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MockingjaySample/Info.plist;
@@ -336,6 +468,7 @@
 		};
 		2CD479E41C536CC700839DC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B73A13AB1598F0851F9E2E /* Pods-MockingjaySample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MockingjaySample/Info.plist;
@@ -347,6 +480,7 @@
 		};
 		2CD479E61C536CC700839DC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79CA3D6D4E87B93C7F63F6A7 /* Pods-MockingjaySampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MockingjaySampleTests/Info.plist;
@@ -359,6 +493,7 @@
 		};
 		2CD479E71C536CC700839DC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B734D48BEC9B4E7B004BAA /* Pods-MockingjaySampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MockingjaySampleTests/Info.plist;
@@ -388,6 +523,7 @@
 				2CD479E41C536CC700839DC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CD479E51C536CC700839DC7 /* Build configuration list for PBXNativeTarget "MockingjaySampleTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +532,7 @@
 				2CD479E71C536CC700839DC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

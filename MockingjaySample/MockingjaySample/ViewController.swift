@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  MockingjaySample
 //
-//  Created by niji on 2016/01/23.
-//  Copyright © 2016年 niji. All rights reserved.
+//  Created by akatsuki174 on 2016/01/23.
+//  Copyright © 2016年 akatsuki174. All rights reserved.
 //
 
 import UIKit

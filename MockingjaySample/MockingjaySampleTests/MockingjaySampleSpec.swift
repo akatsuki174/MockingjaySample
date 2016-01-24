@@ -22,9 +22,16 @@ class MockingjaySampleSpec: QuickSpec {
                         Alamofire.request(.GET, self.url)
                             .responseJSON { response in
                                 self.isSuccess = response.result.isSuccess
+                                if let data = response.result.value {
+                                    let json = JSON(data)
+                                    if let dic = json.dictionary {
+                                        self.language = dic["language"]!.string!
+                                    }
+                                }
                         }
                     }
                     expect(self.isSuccess).toEventually(beTruthy())
+                    expect(self.language).toEventually(equal("swift"))
                 }
             }
         }

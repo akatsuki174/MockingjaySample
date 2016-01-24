@@ -13,7 +13,7 @@
 		2CD479CE1C536CC600839DC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD479CC1C536CC600839DC7 /* Main.storyboard */; };
 		2CD479D01C536CC600839DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD479CF1C536CC600839DC7 /* Assets.xcassets */; };
 		2CD479D31C536CC600839DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD479D11C536CC600839DC7 /* LaunchScreen.storyboard */; };
-		2CD479DE1C536CC700839DC7 /* MockingjaySampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD479DD1C536CC700839DC7 /* MockingjaySampleTests.swift */; };
+		2CD479DE1C536CC700839DC7 /* MockingjaySampleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD479DD1C536CC700839DC7 /* MockingjaySampleSpec.swift */; };
 		B4A2CDAFB38E4B743C2DFE5C /* Pods_MockingjaySample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCF1A79F84743A365BAD797 /* Pods_MockingjaySample.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,7 @@
 		2CD479D21C536CC600839DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CD479D41C536CC600839DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CD479D91C536CC700839DC7 /* MockingjaySampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockingjaySampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CD479DD1C536CC700839DC7 /* MockingjaySampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingjaySampleTests.swift; sourceTree = "<group>"; };
+		2CD479DD1C536CC700839DC7 /* MockingjaySampleSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingjaySampleSpec.swift; sourceTree = "<group>"; };
 		2CD479DF1C536CC700839DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FCF1A79F84743A365BAD797 /* Pods_MockingjaySample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockingjaySample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79CA3D6D4E87B93C7F63F6A7 /* Pods-MockingjaySampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingjaySampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MockingjaySampleTests/Pods-MockingjaySampleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		2CD479DC1C536CC700839DC7 /* MockingjaySampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				2CD479DD1C536CC700839DC7 /* MockingjaySampleTests.swift */,
+				2CD479DD1C536CC700839DC7 /* MockingjaySampleSpec.swift */,
 				2CD479DF1C536CC700839DC7 /* Info.plist */,
 			);
 			path = MockingjaySampleTests;
@@ -339,7 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD479DE1C536CC700839DC7 /* MockingjaySampleTests.swift in Sources */,
+				2CD479DE1C536CC700839DC7 /* MockingjaySampleSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
